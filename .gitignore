@@ -2,6 +2,8 @@
 private/
 *.csv
 *.json
+mlruns/
+model_XGB/
 
 
 # Byte-compiled / optimized / DLL files
