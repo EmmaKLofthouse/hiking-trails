@@ -1,4 +1,4 @@
-# hiking-trails# Hike Duration Prediction Project
+# Hike Duration Prediction Project
 
 ## Overview
 
