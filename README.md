@@ -20,16 +20,23 @@ The dataset comprises user reviews of hikes from hikr.org, along with associated
 
 4. **Feature Importance** We analyse the importance of the features and select those that contribute the most in order to improve the efficiency of the model   
 
+![feature_importance](https://github.com/EmmaKLofthouse/hiking-trails/assets/18194748/5e70c816-a3c2-493e-878f-8d7b0d6b4980)
+
 6. **Hyperparameter Tuning**: Hyperparameters of the XGBoost model are tuned using Hyperopt, a bayesian optimization technique.
 
 7. **Learning Curve Analysis**: Learning curves are analyzed to evaluate the model's performance as a function of training data size and detect any signs of overfitting.
+   
+![alpha](https://github.com/EmmaKLofthouse/hiking-trails/assets/18194748/336aea8c-51de-4d46-8c15-baa4f67ed5e8)
 
-8. **Evaluation on Unseen Test Data**: The final trained model is evaluated on a separate unseen test sample to assess its generalization performance.
+9. **Evaluation on Unseen Test Data**: The final trained model is evaluated on a separate unseen test sample to assess its generalization performance.
+
 
 ## Results
 
 The XGBoost model demonstrates promising performance in predicting hike durations. Through extensive preprocessing, feature engineering, hyperparameter tuning, and learning curve analysis, we successfully mitigate overfitting and improve the model's ability to generalize to unseen data. The scatter plot of the model's predictions on the test data provides visual confirmation of its predictive accuracy.
 
+   
+![final_scatter](https://github.com/EmmaKLofthouse/hiking-trails/assets/18194748/1f9d4bd9-805a-4adc-9a97-eee1e41ac7a0)
 
 ## Conclusion
 
